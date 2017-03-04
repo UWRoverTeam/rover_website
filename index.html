@@ -23,7 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,9 +64,9 @@
                 <li>
                     <a class="page-scroll" href="#timeline">Timeline</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="page-scroll" href="#team">Team</a>
-                </li>
+                </li> -->
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
@@ -81,7 +81,6 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <h1 class="" style="color:black;padding-top: 1.5em">Welcome To Our Page!</h1>
             <div class="intro-heading">University of Warsaw Rover Team</div>
             <a href="#about" class="page-scroll btn btn-xl">UWRT PRESENTS</a>
         </div>
@@ -97,42 +96,25 @@
             </div>
         </div>
 
-        <h2 class=" col-lg-12 text-muted text-center">
-            <p>University of Warsaw Rover Team is a student team devoted to the construction of
-
-                mars rover analogues for international robotics competitions.
-            <p>Currently we count
-
-                twenty students from three different faculties of the University of Warsaw.
-
-            <p>We take part in a variety of competitions but all of them place similar demands: to
-
-                construct a remotely controlled robot (mars rover) capable of accomplishing a set of
-
-                tasks, which are meant to simulate what real rovers may face during future manned
-
-                missions to Mars.
-
-            <p>This includes exploration of rough terrain, picking up and delivering
-
-                objects, manipulating equipment and performing geological surveys of the area. In
-
-                addition some of the tasks need to be performed autonomously, without any
-
-                operator’s input..
+        <h2 class="col-lg-12 text-justify text-muted">
+          <p>
+            University of Warsaw Rover Team is a student team devoted to the construction of mars rover analogues for international robotics competitions. Currently we count twenty students from three different faculties of the University of Warsaw.
+          </p>
+          <p>
+            We take part in a variety of competitions but all of them place similar demands: to construct a remotely controlled robot (mars rover) capable of accomplishing a set of tasks, which are meant to simulate what real rovers may face during future manned missions to Mars.
+            This includes exploration of rough terrain, picking up and delivering objects, manipulating equipment and performing geological surveys of the area. In addition some of the tasks need to be performed autonomously, without any operator’s input..
+          </p>
         </h2>
     </div>
     </div>
 </section>
 
-
 <!-- TimelineSection -->
-<section id="timeline">
+<section id="timeline" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Timeline</h2>
-
             </div>
         </div>
         <div class="row">
@@ -143,9 +125,9 @@
                             <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
+                            <div class="timeline-heading text-muted">
                                 <h4>December 2014 </h4>
-                                <h4 class="subheading"> </h4>
+                                <h4 class="subheading">Beginnings </h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Our team was formed at the Faculty of Physics.</p>
@@ -159,6 +141,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>September 2015</h4>
+                                <h4 class="subheading">First battle</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted"> Our first rover, called the Axolotl, was barely finished in time for the European Rover Challenge 2015.</p>
@@ -172,6 +155,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>July 2016</h4>
+                                <h4 class="subheading">Second Rover - Axolotl 2.0</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">We were 3rd at the United Kingdom University Rover Challenge!</p>
@@ -185,6 +169,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>September 2016</h4>
+                                <h4 class="subheading">Another success</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">We finished 6th at the European Rover Challenge!</p>
@@ -192,7 +177,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image">
+                        <div class="timeline-image text-center">
                             <h4>Be Part
                                 <br>Of Our
                                 <br>Story!</h4>
@@ -205,7 +190,7 @@
 </section>
 
 <!-- Team Section -->
-<section id="team" class="bg-light-gray">
+<!-- <section id="team">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -267,21 +252,19 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Contact Section -->
 <section id="contact">
     <div class="container">
         <div class="row text-center">
-            <h2 class="section-heading">Contact us</h2>
+            <h2 class="section-heading text-primary">Contact us</h2>
             <h2>
                 <h3 class="section-heading">OUR EMAIL <br/> <br/>
                     rover@okwf.fuw.edu.pl</h3>
                 <div class="col-md-4 col-lg-12">
                     <ul class="list-inline social-buttons">
-                        <li><a href=https://www.facebook.com/uwroverteam><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a>
+                        <li><a id="fb" href='https://www.facebook.com/uwroverteam'><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -295,7 +278,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Dariasz 2017</span>
+                <span class="copyright">Copyright &copy; Dariasz & Marcia 2017</span>
             </div>
 
         </div>
