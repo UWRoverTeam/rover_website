@@ -1,572 +1,463 @@
-
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="University of Warsaw Rover Team">
+        <meta name="author" content="Dariasz">
+        <title>University of Warsaw Rover Team</title>
 
-<head>
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="University of Warsaw Rover Team">
-    <meta name="author" content="Dariasz">
-
-    <title>University of Warsaw Rover Team</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
-          type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
+        <!-- Custom Fonts -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+            type='text/css'>
+            <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+            <!-- Theme CSS -->
+            <link href="css/agency.css" rel="stylesheet">
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
             integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY"
             crossorigin="anonymous"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
             integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo"
             crossorigin="anonymous"></script>
-    <![endif]-->
+            <![endif]-->
+        </head>
+        <body id="page-top" class="index">
 
-</head>
-
-<body id="page-top" class="index">
-
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">University of Warsaw Rover Team</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#timeline">Timeline</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Supporters</a>
-                </li>
-                <!-- <li>
-                    <a class="page-scroll" href="#team">Team</a>
-                </li> -->
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-heading">University of Warsaw Rover Team</div>
-            <a href="#about" class="page-scroll btn btn-xl">PRESENTS</a>
-        </div>
-    </div>
-</header>
-
-<!-- About Section -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">About</h2>
-            </div>
-        </div>
-
-        <h2 class="col-lg-12 text-justify text-muted">
-          <p>
-            University of Warsaw Rover Team is a student team devoted to the construction of mars rover analogues for international robotics competitions. Currently we count about fifteen students from five different faculties of the University of Warsaw.
-          </p>
-          <p>
-            We take part in a variety of competitions but all of them place similar demands: to construct a remotely controlled robot (Mars Rover analogue) capable of accomplishing a set of tasks, which are meant to simulate what real rovers may face during future manned missions to Mars.
-            This includes exploration of rough terrain, picking up and delivering objects, manipulating equipment and performing scientific surveys of the area. In addition some of the tasks need to be performed autonomously, without any operator’s input.
-          </p>
-
-          <p class="col-md-12 col-lg-12">Check out our march 2017 promotional video:</p>
-          <div class="col-md-2 col-lg-2"></div>
-          <!--video width="100%" controls class="col-md-8 col-lg-8" style="padding:20px;">
-            <source src="https://static1.tvpw.pl/video/20170303_Lazik_Marsjanski_UW_SUB_PL_v5_360p.mp4?dp=971" type="video/mp4">
-          </video-->
-          <iframe src="https://tvpw.pl/embd/misja-mars" width="800" height="450" frameborder="0" allowfullscreen></iframe>  
-          <div class="col-md-12 col-lg-12">
-            We are always looking to expand our team. If you:
-          </div>
-          <p class="text-primary col-md-12 col-lg-12">
-            - are a part of the University of Warsaw (only students can be team members but help from the faculty is always welcome)</br>
-
-            - want to take part in what we are doing</br>
-
-            - are willing to put at least a few hours per week into making it happen</br>
-
-            - see an area in which you could help us</br>
-          </p>
-          <p class="col-md-12 col-lg-12">
-           Apply now!
-          </p>
-        </h2>
-	<div class="col-lg-12">
-            <ul class="text-center">
-                <li class="learn"><a href="https://goo.gl/forms/xEjrCrUxkg2u8LFC3" class="btn btn-xl" target="_blank">Application form</a></li>
-            </ul>
-        </div>
-
-    </div>
-    </div>
-</section>
-
-<!-- TimelineSection -->
-<section id="timeline" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Timeline</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2014 </h4>
-                                <h4 class="subheading">The beginnings </h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Our team was formed at the University of Warsaw Faculty of Physics.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>September 2015</h4>
-                                <h4 class="subheading">The first battle</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted"> Our first rover, called the Axolotl, was barely finished in time for the European Rover Challenge 2015.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2016</h4>
-                                <h4 class="subheading">The second rover - Axolotl 2.0</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">We were 3rd at the United Kingdom University Rover Challenge!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>September 2016</h4>
-                                <h4 class="subheading">Another success</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">We finished 6th at the European Rover Challenge!</p>
-                            </div>
-                        </div>
-                    </li>
-                    
-		    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/6.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>June 2017</h4>
-                                <h4 class="subheading">Third version - the Anteros</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Our first start at the University Rover Challenge - the oldest, most prestigious and competitive event of the rover challenge series. We ended up in 16th place out of 36 teams.</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/7.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>June 2018</h4>
-                                <h4 class="subheading">URC 2018</h4>
-                            </div>
-                            <div class="timeline-body">
-				<p class="text-muted">
-					We placed 8th at 2018 edition of University Rover Challenge.
-				</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/8.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>August 2019</h4>
-                                <h4 class="subheading">CIRC 2019</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">We placed 3rd out of 12 teams.</p>
-                            </div>
-                        </div>
-                    </li>
-
-<!--
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/timeline/5.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Now</h4>
-                                <h4 class="subheading">Still going strong</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">We are currently preparing for new rover challenges in the 2018. The earliest one is the University Rover Challenge in June, followed by the Canadian and European challenges.</p>
-                            </div>
-                        </div>
-                    </li>
--->
-
-
-                    <li class="timeline-inverted">
-                      <a class="page-scroll" href="#contact">
-                        <div class="timeline-image text-center">
-                          <h4>Be A Part<br>Of Our<br>Story!</h4>
-                        </div>
-                      </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Supporters Grid Section -->
-    <section id="portfolio">
-
-        <div class="container">
-
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Our Supporters</h2>
-                  <h3 class="section-subheading text-muted">Our supporters, sponsors and partners.</h3>
-              </div>
-          </div>
-
-            <div class="col-lg-9">
-	
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="https://www.4fstore.com" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/4f_logo.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">4F</p>
-                  </div>
-              </div>
-
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="https://www.fuw.edu.pl/faculty-of-physics-home.html" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/fuw_logo.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">Faculty of Physics University of Warsaw</p>
-                  </div>
-              </div>
-
-
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="http://samorzad.uw.edu.pl/en/" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/zss_logo.jpg" class="img-responsive" alt="ZSS">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">University of Warsaw Students’ Union</p>
-                  </div>
-              </div>
-
-
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="https://botland.com.pl/" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/botland_logo.jpg" class="img-responsive" alt="botland">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">botland</p>
-                  </div>
-              </div>
-
-
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="http://www.encoder.co.uk/" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                      </div>
-                      <img src="img/supporters/BrEn_Logo.jpg" class="img-responsive" alt="British Encoder">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">British Encoder Products Company</p>
-                  </div>
-              </div>
-
-
-
-              <div class="col-lg-6 portfolio-item">
-                  <a href="http://www.igus.co.uk/?C=GB&L=en" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/igus_logo.jpg" class="img-responsive" alt="igus">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">igus®</p>
-                  </div>
-              </div>
-
-            </div>
-
-
-
-            <div class="col-lg-3">
-              <div class="portfolio-item">
-                <a href="http://www.fuw.pl/en/" class="portfolio-link" target="_blank">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
+            <!-- Navigation -->
+            <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="#page-top">University of Warsaw Rover Team</a>
                     </div>
-                  </div>
-                  <img src="img/supporters/radaUW_logo.jpg" class="img-responsive" alt="University of Warsaw Students’ Academic Movement Advisory Board">
-                </a>
-                <div class="portfolio-caption">
-                  <p class="text-muted">University of Warsaw Students’ Academic Movement Advisory Board</p>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#timeline">Timeline</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#portfolio">Supporters</a>
+                            </li>
+                            <!-- <li>
+                                <a class="page-scroll" href="#team">Team</a>
+                            </li> -->
+                            <li>
+                                <a class="page-scroll" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
                 </div>
-              </div>
+                <!-- /.container-fluid -->
+            </nav>
 
+            <!-- Header -->
+            <header>
+                <div class="container">
+                    <div class="intro-text">
+                        <div class="intro-heading">University of Warsaw Rover Team</div>
+                        <a href="#about" class="page-scroll btn btn-xl">PRESENTS</a>
+                    </div>
+                </div>
+            </header>
 
-
-              <div class="portfolio-item">
-                  <a href="http://en.uw.edu.pl" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/uw_logo.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">University of Warsaw</p>
-                  </div>
-              </div>
+            <!-- About Section -->
+            <section id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">About</h2>
+                        </div>
+                    </div>
+                    <h2 class="col-lg-12 text-justify text-muted">
+                    <p>
+                        University of Warsaw Rover Team is a student team devoted to the construction of mars rover analogues for international robotics competitions. Currently we count about fifteen students from five different faculties of the University of Warsaw.
+                    </p>
+                    <p>
+                        We take part in a variety of competitions but all of them place similar demands: to construct a remotely controlled robot (Mars Rover analogue) capable of accomplishing a set of tasks, which are meant to simulate what real rovers may face during future manned missions to Mars.
+                        This includes exploration of rough terrain, picking up and delivering objects, manipulating equipment and performing scientific surveys of the area. In addition some of the tasks need to be performed autonomously, without any operator’s input.
+                    </p>
+                    <p class="col-md-12 col-lg-12">Check out our march 2017 promotional video:</p>
+                    <div class="col-md-2 col-lg-2"></div>
+                    <!--video width="100%" controls class="col-md-8 col-lg-8" style="padding:20px;">
+                    <source src="https://static1.tvpw.pl/video/20170303_Lazik_Marsjanski_UW_SUB_PL_v5_360p.mp4?dp=971" type="video/mp4">
+                </video-->
+                <iframe src="https://tvpw.pl/embd/misja-mars" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-12 col-lg-12">
+                    We are always looking to expand our team. If you:
+                </div>
+                <p class="text-primary col-md-12 col-lg-12">
+                    - are a part of the University of Warsaw (only students can be team members but help from the faculty is always welcome)</br>
+                    - want to take part in what we are doing</br>
+                    - are willing to put at least a few hours per week into making it happen</br>
+                    - see an area in which you could help us</br>
+                </p>
+                <p class="col-md-12 col-lg-12">
+                    Apply now!
+                </p>
+                </h2>
+                <div class="col-lg-12">
+                    <ul class="text-center">
+                        <li class="learn"><a href="https://goo.gl/forms/xEjrCrUxkg2u8LFC3" class="btn btn-xl" target="_blank">Application form</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <!--div class="portfolio-item">
-                  <a href="http://rdlabs.pl" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/rdlabs.jpg" class="img-responsive" alt="RD Labs">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">RD Labs</p>
-                  </div>
-              </div>
-            </div-->
-
-
-
-
         </div>
+    </section>
 
+    <!-- TimelineSection -->
+    <section id="timeline" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Timeline</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/8.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>August 2019</h4>
+                                    <h4 class="subheading">CIRC 2019</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We placed 3rd out of 12 teams.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/9.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January 2019</h4>
+                                    <h4 class="subheading">IRC 2019</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        We participated in Indian Rover Challenge in Manipal.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/10.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2018</h4>
+                                    <h4 class="subheading">ERC 2018</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        We participated in 2018 edition of European Rover Challenge.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/7.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>June 2018</h4>
+                                    <h4 class="subheading">URC 2018</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        We placed 8th at 2018 edition of University Rover Challenge.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/6.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>June 2017</h4>
+                                    <h4 class="subheading">Third version - the Anteros</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Our first start at the University Rover Challenge - the oldest, most prestigious and competitive event of the rover challenge series. We ended up in 16th place out of 36 teams.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2016</h4>
+                                    <h4 class="subheading">Another success</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We finished 6th at the European Rover Challenge!</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2016</h4>
+                                    <h4 class="subheading">The second rover - Axolotl 2.0</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We were 3rd at the United Kingdom University Rover Challenge!</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2015</h4>
+                                    <h4 class="subheading">The first battle</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"> Our first rover, called the Axolotl, was barely finished in time for the European Rover Challenge 2015.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2014 </h4>
+                                    <h4 class="subheading">The beginnings </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Our team was formed at the University of Warsaw Faculty of Physics.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <a class="page-scroll" href="#contact">
+                                <div class="timeline-image text-center">
+                                    <h4>Be A Part<br>Of Our<br>Story!</h4>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supporters Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Supporters</h2>
+                    <h3 class="section-subheading text-muted">Our supporters, sponsors and partners.</h3>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="col-lg-6 portfolio-item">
+                    <a href="https://www.4fstore.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/4f_logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">4F</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-item">
+                    <a href="https://www.fuw.edu.pl/faculty-of-physics-home.html" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/fuw_logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">Faculty of Physics University of Warsaw</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-item">
+                    <a href="http://samorzad.uw.edu.pl/en/" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/zss_logo.jpg" class="img-responsive" alt="ZSS">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">University of Warsaw Students’ Union</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-item">
+                    <a href="https://botland.com.pl/" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/botland_logo.jpg" class="img-responsive" alt="botland">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">botland</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-item">
+                    <a href="http://www.encoder.co.uk/" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                        </div>
+                        <img src="img/supporters/BrEn_Logo.jpg" class="img-responsive" alt="British Encoder">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">British Encoder Products Company</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-item">
+                    <a href="http://www.igus.co.uk/?C=GB&L=en" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/igus_logo.jpg" class="img-responsive" alt="igus">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">igus®</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="portfolio-item">
+                    <a href="http://www.fuw.pl/en/" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/radaUW_logo.jpg" class="img-responsive" alt="University of Warsaw Students’ Academic Movement Advisory Board">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">University of Warsaw Students’ Academic Movement Advisory Board</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="http://en.uw.edu.pl" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+                        <img src="img/supporters/uw_logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted">University of Warsaw</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">2017 sponsors:</h2>
-                      <h2>
-                        Special thanks to
-                        <span class="text-primary">Paweł Chodaczek</span> and
-                        <span class="text-primary">RDLabs</span>
-for support that allowed ous to participate in University Rover Challenge 2017!
-                      </h2>
+                    <h2>
+                    Special thanks to
+                    <span class="text-primary">Paweł Chodaczek</span> and
+                    <span class="text-primary">RDLabs</span>
+                    for support that allowed ous to participate in University Rover Challenge 2017!
+                    </h2>
                 </div>
             </div>
-
-
-              <div class="portfolio-item">
-                  <a href="http://rdlabs.pl/en/" class="portfolio-link" target="_blank">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                          </div>
-                      </div>
-                      <img src="img/supporters/RDLABS_logo.jpg" class="img-responsive" alt="RDLabs">
-                  </a>
-                  <div class="portfolio-caption">
-                      <p class="text-muted">RDLabs</p>
-                  </div>
-              </div>
-
-
-        </div>
-</section>
-
-<!-- Team Section -->
-<!-- <section id="team">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Diana Pertersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+            <div class="portfolio-item">
+                <a href="http://rdlabs.pl/en/" class="portfolio-link" target="_blank">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                        </div>
+                    </div>
+                    <img src="img/supporters/RDLABS_logo.jpg" class="img-responsive" alt="RDLabs">
+                </a>
+                <div class="portfolio-caption">
+                    <p class="text-muted">RDLabs</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-        </div>
-    </div>
-</section> -->
+    </section>
 
-<!-- Contact Section -->
-<section id="contact">
-    <div class="container">
-        <div class="row text-center">
-            <h2 class="section-heading text-primary">Contact us</h2>
-            <h2>
-                <h3 class="section-heading"></br>
-                    rover@okwf.fuw.edu.pl</h3>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-heading text-primary">Contact us</h2>
+                <h2>
+                <h3 class="section-heading">
+                    uwrover@gmail.com
+                </h3>
+                <h3 class="section-heading">
+                    rover@okwf.fuw.edu.pl
+                </h3>
                 <div class="col-lg-12">
                     <ul class="list-inline social-buttons">
                         <li><a id="fb" href='https://www.facebook.com/uwroverteam'><i class="fa fa-facebook"></i></a>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
+            </div>
             </h2>
         </div>
-
     </div>
 </section>
-
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <span class="copyright">Copyright &copy; University of Warsaw Rover Team 2019</span>
             </div>
-
         </div>
     </div>
 </footer>
-
 
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -576,8 +467,8 @@ for support that allowed ous to participate in University Rover Challenge 2017!
 
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
-        integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb"
-        crossorigin="anonymous"></script>
+integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb"
+crossorigin="anonymous"></script>
 
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
@@ -585,7 +476,5 @@ for support that allowed ous to participate in University Rover Challenge 2017!
 
 <!-- Theme JavaScript -->
 <script src="js/agency.min.js"></script>
-
 </body>
-
 </html>
